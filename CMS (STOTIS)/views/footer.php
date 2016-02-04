@@ -1,12 +1,3 @@
-<?php
-session_start ();
-if ($_GET['exit'] == 1 )
-{
-unset ($_SESSION['auth']);
-session_destroy();
-exit();
-}
-?>
 <!-- Begin Status Module -->
 <div id="status" class="navbar navbar-fixed-bottom hidden-phone">
     <div class="btn-toolbar">
