@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf8">
     <title><?php echo $blogname ?></title>
-    <link rel="stylesheet" href="/Blog/template.css">
+    <link rel="stylesheet" href="/CMS.git/CMS(STOTIS)/template.css">
 </head>
 <body class="site com_content view-article no-layout no-task itemid-101">
 <div class="body">
