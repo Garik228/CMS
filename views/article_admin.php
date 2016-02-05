@@ -1,4 +1,4 @@
-<script type="text/javascript" src="http://localhost/Blog/media/editors/tinymce/tinymce.min.js"></script>
+<script type="text/javascript" src="http://localhost/CMS.git/media/editors/tinymce/tinymce.min.js"></script>
 <script type="text/javascript">
     tinyMCE.init({
         // General
@@ -30,7 +30,7 @@
         remove_script_host : false,
         document_base_url : "http://localhost/Blog/",
         // Layout
-        content_css : "http://localhost/blog/editor.css",
+        content_css : "http://localhost/CMS.git/editor.css",
         importcss_append: true,
         // Advanced Options
         resize: "both",

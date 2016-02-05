@@ -1,5 +1,9 @@
 <?php
      require_once("../database.php");
+if (!$authorized) {
+    header("Location: loging_form.php");
+    exit();
+}
     $title_icon = '<span class="icon-home-2"></span>';
     $title_form = 'Панель управления';
      require_once("../views/header.php");
