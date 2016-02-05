@@ -71,6 +71,6 @@ if (isset($_POST['login'])) {
 <div class="navbar navbar-fixed-bottom hidden-phone">
     <p class="pull-right">
         © 2016 СТОТиС </p>
-    <a href="http://localhost/Blog/" target="_blank" class="pull-left"> Перейти на главную страницу сайта.</a>
+    <a href="http://localhost/CMS.git/CMS(STOTIS)/" target="_blank" class="pull-left"> Перейти на главную страницу сайта.</a>
 </div>
 </html>
