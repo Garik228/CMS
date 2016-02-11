@@ -1,4 +1,4 @@
-<script type="text/javascript" src="http://localhost/CMS.git/media/editors/tinymce/tinymce.min.js"></script>
+<script type="text/javascript" src="../media/editors/tinymce/tinymce.min.js"></script>
 <script type="text/javascript">
     tinyMCE.init({
         // General
@@ -28,14 +28,14 @@
         // URL
         relative_urls : true,
         remove_script_host : false,
-        document_base_url : "http://localhost/Blog/",
+        document_base_url : "http://localhost/CMS.git/",
         // Layout
         content_css : "http://localhost/CMS.git/editor.css",
         importcss_append: true,
         // Advanced Options
         resize: "both",
         height : "300",
-        width : "50"
+        width : "1000"
 
     });
 </script>
