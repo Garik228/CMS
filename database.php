@@ -39,21 +39,16 @@ function close_session()
     if ($sid != "") {
         $psid = mysqli_real_escape_string($link, $sid);
         $result = mysqli_query($link, "delete FROM session WHERE sid = '$psid' ");
-
-        if ($row = mysqli_fetch_assoc($result)) {
-            $authorized = true;
-            $user_id = $row["user_id"];
-        }
-
+        $user_id = 0;
     }
 }
 
 function db_connect()
 {
     $link = mysqli_connect(MYSQL_SERVER, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DB)
-    or die("Error: " . mysql_error($link));
+    or die("Error: " . mysqli_error($link));
     if (!mysqli_set_charset($link, "utf8")) {
-        printf("Error: " . mysql_error($link));
+        printf("Error: " . mysqli_error($link));
     }
 
     return $link;
