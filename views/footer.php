@@ -11,7 +11,7 @@
         </div>
         <div class="btn-group viewsite">
             <a href="../index.php" target="_blank"><span class="icon-out-2"></span> Просмотр сайта</a>
-            <a href="http://localhost/CMS.git/admin/loging_form.php?exit=1"> Выход </a>
+            <a href="http://localhost/CMS.git/admin/loging.php?logout=1"> Выход </a>
         </div>
     </div>
     </div>
