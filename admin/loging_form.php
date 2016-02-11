@@ -3,6 +3,7 @@
     <title>
         Авторизация в СТОТиС
     </title>
+    <link rel="icon" href="images/sun12.png" type="image/x-icon">
     <meta charset="utf-8">
     <link rel="stylesheet" href="../admin/css/loging_style.css">
     <link rel="stylesheet" href="../admin/css/reset.css">
