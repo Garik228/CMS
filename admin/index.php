@@ -1,7 +1,7 @@
 <?php
      require_once("../database.php");
 if (!$authorized) {
-    header("Location: loging_form.php");
+    header("Location: loging.php");
     exit();
 }
     $title_icon = '<span class="icon-home-2"></span>';
